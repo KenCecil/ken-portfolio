@@ -35,6 +35,22 @@ const projects = [
     stack: ["Project-specific stack", "Matching logic", "EMI calculations"],
     icon: BrainCircuit,
     note: "AI & ML based project"
+  },
+    {
+    number: "04",
+    title: "Success Academy Management System",
+    category: "Business Management · Full-Stack Web App",
+    description:
+      "A web-based management system for Success Academy, designed to manage staff records, attendance, salaries, income, expenses, and financial performance.",
+    stack: [
+      "React",
+      "Vite",
+      "Supabase",
+      "Tailwind CSS",
+      "Recharts"
+    ],
+    icon: MonitorCog,
+    note: "Built for Success Academy"
   }
 ];
 
