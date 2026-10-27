@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 import { motion, useReducedMotion } from "framer-motion";
 import {
   ArrowDownRight, ArrowUpRight, BrainCircuit, Code2, Cpu, Github,
@@ -229,6 +230,7 @@ export default function App() {
       </main>
 
       <footer className="footer"><a className="brand" href="#home"><span className="brand-mark">K.</span><span>Ken Antony Cecil<span className="brand-dot">.</span></span></a><p>Built with curiosity and a little motion.</p><a href="#home" className="back-top">Back to top ↑</a></footer>
+      <Analytics />
     </div>
   );
 }
